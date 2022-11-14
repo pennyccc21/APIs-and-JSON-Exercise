@@ -1,10 +1,13 @@
-﻿namespace APIsAndJSON
+﻿namespace RonVsKanye
 {
-    public class Program
-    {
-        static void Main(string[] args)
+     class Program
+     {
+         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            QuoteGenerator.KanyeQuote();
+
+             QuoteGenerator.RonQuote();
         }
     }
 }
+ 
